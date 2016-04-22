@@ -1,0 +1,79 @@
+abiword,https://github.com/AbiWord/abiword.git
+alsa-https://github.com/ius/android_external_alsa-lib.git
+bash,git://git.savannah.gnu.org/bash.git
+bind,https://github.com/almonk/Bind.git
+chromium,https://chromium.googlesource.com/All-Projects
+cups,https://github.com/gooselinux/cups.git
+dhcp,https://source.isc.org/git/dhcp.git
+e2fsprogs,https://github.com/tytso/e2fsprogs.git
+firefox,https://github.com/mozilla/gecko-dev
+freetype,https://github.com/winlibs/freetype.git
+gcc,https://github.com/gcc-mirror/gcc.git
+gimp,https://github.com/GNOME/gimp.git
+glibc,https://github.com/lattera/glibc.git
+gnome-shell,https://github.com/GNOME/gnome-shell.git
+gnucash,https://github.com/Gnucash/gnucash.git
+gnumeric,https://github.com/GNOME/gnumeric.git
+grub,https://github.com/coreos/grub.git
+gtk+,https://github.com/GNOME/gtk.git
+httpd,https://github.com/apache/httpd.git
+inkscape,https://github.com/inkscape/inkscape.git
+k3b,https://github.com/KDE/k3b.git
+kdelibs,https://github.com/KDE/kdelibs.git
+kmod,https://github.com/pedrox/kmod.git
+libgnome,https://github.com/GNOME/libgnome.git
+libreoffice,https://github.com/pld-linux/libreoffice.git
+linux,https://github.com/torvalds/linux.git
+lxde-common,git://git.lxde.org/git/
+mariadb,https://github.com/MariaDB/server.git
+mate-desktop,https://github.com/mate-desktop/mate-desktop.git
+mesaLib,https://github.com/projectmesa/mesa.git
+mysql,https://github.com/mysql/mysql-server.git
+nautilus,https://github.com/GNOME/nautilus.git
+openbox,https://github.com/danakj/openbox.git
+openjdk-doesn’t appear to have a github
+oppenssh,https://github.com/SimonWilkinson/openssh.git
+openssl,https://github.com/openssl/openssl.git
+perl,https://github.com/Perl/perl5.git
+php,https://github.com/php/php-src.git
+postfix,https://github.com/vdukhovni/postfix.git
+postgresql,https://github.com/turnkeylinux-apps/postgresql.git
+Python,https://github.com/python/cpython.git
+qt,https://github.com/qtproject/qt.git
+samba,https://github.com/samba-team/samba.git
+systemd,https://github.com/systemd/systemd.git
+thunderbird,https://github.com/gooselinux/thunderbird.git
+vim,https://github.com/vim/vim.git
+vlc,https://github.com/videolan/vlc.git
+xfdesktop,https://github.com/xfce-mirror/xfdesktop.git
+xine-lib,https://github.com/huceke/xine-lib-vaapi.git
+xorg-server,https://github.com/XQuartz/xorg-server.git
+sed, https://github.com/bonzini/sed.git
+tar, git clone git://git.savannah.gnu.org/tar.git
+coreutils,git://git.savannah.gnu.org/coreutils.git
+libpam,https://git.fedorahosted.org/git/linux-pam.git
+dpkg, git.debian.org/git/dpkg/dpkg.git
+findutils,git clone git://git.savannah.gnu.org/findutils.git
+ncurses,https://github.com/gittup/ncurses.git
+gzip,git://git.savannah.gnu.org/gzip.git
+netbase,git://anonscm.debian.org/users/md/netbase.git
+apt,https://github.com/Debian/apt.git
+procps,https://github.com/mmalecki/procps.git
+gnupg,git clone git://git.gnupg.org/foo.git
+redline,git://git.savannah.gnu.org/readline.git
+libstdc++6,git://gcc.gnu.org/git/gcc.git
+tzdata,https://github.com/valodzka/tzdata.git
+logrotate,https://github.com/logrotate/logrotate.git
+cpio,git://pkgs.fedoraproject.org/rpms/cpio.git
+udev,http://git.kernel.org/?p=linux/hotplug/udev.git;a=summary
+iptables,git://git.netfilter.org/iptables
+traceroute,https://github.com/csvoss/traceroute.git
+grof,git://git.sv.gnu.org/groff.git
+man-db,http://git.savannah.gnu.org/r/man-db.git/
+gettext,git://git.savannah.gnu.org/gettext.git
+psmisc,https://gitlab.com/psmisc/psmisc.git
+nano,git://git.savannah.gnu.org/nano.git
+rysylog, https://github.com/rsyslog/rsyslog.git
+tcpd,git://git.code.sf.net/p/courier/courier-libs.git courier-courier-libs.git
+xz,git clone http://git.tukaani.org/xz.git
+xauth,https://github.com/xauth/xauth.git
