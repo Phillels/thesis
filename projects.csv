@@ -8,13 +8,13 @@ bind,https://source.isc.org/git/bind9.git
 binutils,git://sourceware.org/git/binutils.git
 bsdutils,git://git.kernel.org/pub/scm/utils/util-linux/util-linux.git
 bzip2,https://github.com/enthought/bzip2-1.0.6.git
-chromium,https://chromium.googlesource.com/All-Projects
+chromium,https://chromium.googlesource.com/chromium/chromium
 coreutils,git://git.savannah.gnu.org/coreutils.git
 cpio,git://pkgs.fedoraproject.org/rpms/cpio.git
 cups,https://github.com/apple/cups
 dhcp,https://source.isc.org/git/dhcp.git
 dictionaries-common,git://git.debian.org/git/dict-common/dictionaries-common
-dpkg, git.debian.org/git/dpkg/dpkg.git
+dpkg,git://git.debian.org/git/dpkg/dpkg.git
 e2fsprogs,git://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git
 findutils,git://git.savannah.gnu.org/findutils.git
 firefox,https://github.com/mozilla/gecko-dev
@@ -45,7 +45,7 @@ libreoffice, git://anongit.freedesktop.org/libreoffice/core
 libssh2,https://github.com/libssh2/libssh2.git
 linux,https://github.com/torvalds/linux.git
 logrotate,https://github.com/logrotate/logrotate.git
-lxde-common,git://git.lxde.org/git/
+lxde-common,git://git.lxde.org/lxde/lxde-common.git
 man-db,http://git.savannah.gnu.org/r/man-db.git/
 mariadb,https://github.com/MariaDB/server.git
 mate-desktop,https://github.com/mate-desktop/mate-desktop.git
