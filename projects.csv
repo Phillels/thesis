@@ -75,7 +75,7 @@ tar,git://git.savannah.gnu.org/tar.git
 tcpd,git://git.code.sf.net/p/courier/courier-libs.git courier-courier-libs.git
 traceroute,https://github.com/csvoss/traceroute.git
 tzdata,https://github.com/valodzka/tzdata.git
-udev,http://git.kernel.org/?p=linux/hotplug/udev.git;a=summary
+udev,git://git.kernel.org/pub/scm/linux/hotplug/udev.git
 vim,https://github.com/vim/vim.git
 vlc,http://git.videolan.org/git/vlc.git
 xauth,https://github.com/xauth/xauth.git
