@@ -33,4 +33,4 @@ fi
 echo $project,$loc,$intialcommitdate,$recentdate,$activedevs,$totaldevs,$yearcount,$totaluniquedevs >> /root/Technicaldebt/projectstat.txt
 
 
-done < /root/Technicaldebt/project/list.txt
+done < /root/Technicaldebt/project/projects.csv
