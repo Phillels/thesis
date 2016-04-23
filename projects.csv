@@ -26,7 +26,7 @@ glibc,git://sourceware.org/git/glibc.git
 gnome-shell,https://github.com/GNOME/gnome-shell.git
 gnucash,https://github.com/Gnucash/gnucash.git
 gnumeric,https://github.com/GNOME/gnumeric.git
-gnupg,git clone git://git.gnupg.org/foo.git
+gnupg,git://git.gnupg.org/foo.git
 grof,git://git.sv.gnu.org/groff.git
 grub,git://git.savannah.gnu.org/grub.git
 gtk+,https://github.com/GNOME/gtk.git
@@ -43,7 +43,6 @@ libpam,https://git.fedorahosted.org/git/linux-pam.git
 libpng,  git://git.code.sf.net/p/libpng/code
 libreoffice, git://anongit.freedesktop.org/libreoffice/core
 libssh2,https://github.com/libssh2/libssh2.git
-libstdc++6,git://gcc.gnu.org/git/gcc.git
 linux,https://github.com/torvalds/linux.git
 logrotate,https://github.com/logrotate/logrotate.git
 lxde-common,git://git.lxde.org/git/
@@ -83,4 +82,4 @@ xauth,https://github.com/xauth/xauth.git
 xfdesktop,https://github.com/xfce-mirror/xfdesktop.git
 xkb,https://github.com/xkbcommon/libxkbcommon.git
 xorg-server,https://github.com/XQuartz/xorg-server.git
-xz,git clone http://git.tukaani.org/xz.git
+xz,http://git.tukaani.org/xz.git
