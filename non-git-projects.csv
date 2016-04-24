@@ -1,0 +1,7 @@
+# Non-git ones
+libpcre, svn, svn://vcs.exim.org/pcre2/code/trunk
+wget, bzr, http://bzr.savannah.gnu.org/r/wget/trunk
+xine-lib, hg, http://hg.debian.org/hg/xine-lib/xine-lib
+openjdk, hg, http://hg.openjdk.java.net/jdk9/dev
+
+

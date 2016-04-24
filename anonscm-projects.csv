@@ -1,0 +1,9 @@
+# anonscm versions -- kind of sketch. Not useful for commit info.
+netbase,git://anonscm.debian.org/users/md/netbase.git
+lsb-release, git://anonscm.debian.org/collab-maint/lsb.git
+ucf, http://anonscm.debian.org/cgit/users/srivasta/debian/ucf.git/
+net-tools, https://anonscm.debian.org/git/pkg-net-tools/pkg-net-tools.git
+lsof, git://anonscm.debian.org/collab-maint/lsof.git
+ncurses, git://anonscm.debian.org/collab-maint/ncurses.git
+ifupdown, https://anonscm.debian.org/git/collab-maint/ifupdown.git
+mime-support, git://anonscm.debian.org/collab-maint/mime-support.git
