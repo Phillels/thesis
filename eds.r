@@ -2,6 +2,9 @@ library(ggplot)
 library(ggplot2)
 library(pastecs)
 library(fBasics)
+install.packages("VGAM")
+library(VGAM)
+
 projectstat <- read.csv("~//Desktop//Technicaldebt//eds-projectstat.csv")
 
 project = projectstat$project
@@ -39,6 +42,8 @@ cor(projectstat$cocomo, projectstat$vulns)
 #As cocomo increases, vulnerabilities increases (.632)
 cor(projectstat$cocomo, projectstat$vulnerabilities)
 cor(projectstat$loc, projectstat$vulns)
+#.6327
+cor(projectstat$loc, projectstat$vulnerabilities)
 cor(projectstat$age, projectstat$vulnerabilities)
 cor(projectstat$yearcount, projectstat$vulnerabilities)
 cor(projectstat$activedevs, projectstat$vulnerabilities)
@@ -46,7 +51,21 @@ cor(projectstat$totaldevs, projectstat$vulnerabilities)
 cor(projectstat$activedevs, projectstat$vulns)
 cor(projectstat$totaldevs, projectstat$vulns)
 cor(projectstat$vulnerabilities, projectstat$bd)
-cor(projectstat$cocomo, projectstat$bd)
+cor(projectstat$totaldevs,projectstat$bugcount)
+cor(projectstat$loc,projectstat$bugcount)
+
+
+totaleffort <- (projectstat$cocomo/projectstat$totaldevs)
+cor(projectstat$cocomo, projectstat$bugcount)
+cor(projectstat$yearcount, projectstat$bugcount)
+
+
+totaleffort <-(projectstat$totaldevs*projectstat$yearcount)
+cor(projectstat$totaleffort, projectstat$vulnerabilities)
+
+hist(bugcount)
+
+
 
 plot(projectstat$vulnerabilities)
 plot(projectstat$cocomo)
@@ -63,6 +82,10 @@ abline(lm(vulnerabilities ~ effort), col="red")
 lm.out=lm(vulnerabilities~cocomo)
 summary(lm.out)
 
+lm.out=lm(vulnerabilities~cocomo+bugcount)
+summary(lm.out)
+
+
 lm.out=lm(vulns~cocomo)
 summary(lm.out)
 
@@ -76,17 +99,48 @@ summary(lm.out)
 
 #!!! r-squared .5512
 totaleffort <-(projectstat$totaldevs*projectstat$yearcount)
-
 lm.out=lm(vulnerabilities~loc+totaleffort)
 summary(lm.out)
 
-
-
-currenteffort <-(projectstat$activedevs*projectstat$yearcount)
-
-lm.out=lm(vulns~cocomo)
+options(scipen=999)
+#!! r-squared .2965
+totaleffort <-(projectstat$totaldevs*projectstat$yearcount)
+adjloc <- (projectstat$loc/100000)
+lm.out=lm(vulnerabilities~adjloc+totaleffort)
 summary(lm.out)
 
+totaleffort <-(projectstat$totaldevs*projectstat$yearcount)
+adjloc <- (projectstat$loc/100000)
+lm.out=lm(vulns~adjloc+totaleffort)
+summary(lm.out)
+
+summary(m<-vglm(vulnerabilities~adjloc+totaleffort, tobit(Lower = 0), data = projectstat ))
+
+sd(projectstat$loc)
+mean(projectstat$loc)
+
+totaleffort <-(projectstat$totaldevs*projectstat$yearcount)
+sd(projectstat$totaldevs)
+mean(projectstat$totaldevs)
+
+sd(projectstat$yearcount)
+mean(projectstat$yearcount)
+
+sd(projectstat$vulnerabilities)
+mean(projectstat$vulnerabilities)
+
+hist(vulnerabilities)
+plot(loc~vulnerabilities)
+plot(adjloc~vulnerabilities)
+plot(loc~age)
+
+#not significant
+totaleffort <-(projectstat$totaldevs*projectstat$yearcount)
+lm.out=lm(vulns~totaleffort)
+summary(lm.out)
+
+lm.out=lm(vulns~totaleffort)
+summary(lm.out)
 
 log.vulnerabilities <-log(vulnerabilities)
 hist(log.vulnerabilities)
